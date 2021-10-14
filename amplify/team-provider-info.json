@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-debbeo-dev-85736-authRole",
+      "UnauthRoleArn": "arn:aws:iam::549005901556:role/amplify-debbeo-dev-85736-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::549005901556:role/amplify-debbeo-dev-85736-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-debbeo-dev-85736-deployment",
+      "UnauthRoleName": "amplify-debbeo-dev-85736-unauthRole",
+      "StackName": "amplify-debbeo-dev-85736",
+      "StackId": "arn:aws:cloudformation:us-east-2:549005901556:stack/amplify-debbeo-dev-85736/036b5c30-04c8-11eb-b39e-020ed09a9c60",
+      "AmplifyAppId": "d2zd5ztrhozro"
+    },
+    "categories": {
+      "auth": {
+        "debbeo718b201a": {}
+      }
+    }
+  }
+}

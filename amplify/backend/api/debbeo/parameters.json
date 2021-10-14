@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "debbeo",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authdebbeo718b201a",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

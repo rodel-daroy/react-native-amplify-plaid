@@ -1,0 +1,18 @@
+type Account @model {
+  id: ID!
+  account_id: String!
+  balances: Balance
+  mask: String
+  name: String
+  official_name: String
+  subtype: String
+  type: String
+}
+
+type Balance @model {
+  available: Float
+  current: Float
+  iso_currency_code: String
+  limit: Float
+  unofficial_currency_code: String
+}
